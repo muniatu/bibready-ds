@@ -8,4 +8,5 @@ defmodule Storybook.DesignTokens do
 
   def entry("colors"), do: [name: "Colors", icon: {:fa, "droplet", :thin}]
   def entry("typography"), do: [name: "Typography", icon: {:fa, "font", :thin}]
+  def entry("spacing"), do: [name: "Spacing", icon: {:fa, "arrows-left-right", :thin}]
 end
